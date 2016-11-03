@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Twitter</title>
+
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+
+  <link rel="stylesheet" type="text/css" href="fonts/style.css"/>
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+	<div class=container-fluid>
+		<header>
+			<div class="row titulo">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<h1 class="tituloP"><span class="icon-twitter"></span> Twitter</h1>
+				</div>
+			</div>
+		</header>
+
+		<section>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<textarea placeholder="Añade tu nueva tarea" class="areaDeTexto"></textarea>
+				</div>
+			</div>
+		</section>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+					<button onclick="agregarTarea()" class="elBoton"> Añadir tarea</button>
+					<span class="icon-plus"></span>
+					<hr>
+				</div>
+			</div>
+		<section>
+			<div class="row">
+				<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 tarea">
+				</div>
+			</div>
+		</section>
+		<footer>
+		</footer>
+	</div>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>

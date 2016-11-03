@@ -1,0 +1,64 @@
+h1{
+	font-size: 20px;
+	text-align: center;
+}
+
+.titulo{
+	height: 70px;
+	background-color: #8db7f4;
+}
+
+.icon-twitter{
+	font-size: 25px;
+	color: blue;
+}
+
+.areaDeTexto{
+	height: 100px;
+	margin-top: 0.9%;
+	width: 100%;
+	padding: 0.8%;
+	border-radius: 5px;
+}
+
+.elBoton{
+	height: 35px;
+	width: 150px;
+	margin-top: 0.8%;
+	background-color: #8db7f4;
+	color: #000000;
+	border-radius: 5px;
+	border-style: none;
+}
+
+.icon-plus{
+	font-size: 15px;
+	color: #000000;
+	display: block;
+	position: absolute;
+	margin-top: -25px;
+	margin-left: 13px;
+}
+
+hr {
+  background-color: #f2eded;
+  height: 1px;
+}
+
+/*Elementos creados por el usuario*/
+
+.pDeTarea{
+	background-color: #8db7f4;
+	height: 50px;
+	padding-top: 0.9%;
+	padding-left: 3%;
+	color: #ffffff;
+	font-weight: bold;
+}
+
+.icon-bin{
+	font-size: 30px;
+	float: right;
+	color: #000000;
+	margin-right: 2%;
+}
