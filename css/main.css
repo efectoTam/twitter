@@ -51,8 +51,8 @@ hr {
 	background-color: #8db7f4;
 	height: 50px;
 	padding-top: 0.9%;
-	padding-left: 3%;
-	color: #ffffff;
+	padding-left: 1.2%;
+	color: #000000;
 	font-weight: bold;
 }
 
@@ -61,4 +61,9 @@ hr {
 	float: right;
 	color: #000000;
 	margin-right: 2%;
+}
+
+.cuadrito{
+	float: left;
+	margin-right: 0.5% !important; 
 }
