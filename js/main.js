@@ -1,4 +1,4 @@
-function agregarTarea(){
+function twitter(){
 
   contenedorDeTareas = document.getElementsByClassName("tarea")[0];
 	nuevaTarea = document.createElement("div");
@@ -15,15 +15,24 @@ function agregarTarea(){
   nuevaTarea.setAttribute("class", "laNuevaTarea");
   contenedorDeTareas.appendChild(nuevaTarea);
 
+  //Se crea un checkbox
   var minicaja = document.createElement('input');
   minicaja.type = "checkbox";
- 
+  //Se posiciona el checkbox
   minicaja.setAttribute("class", "cuadrito");
   contenedorNuevaTarea.appendChild(minicaja);
 
-}
+  function paraTachar(){
+    //Se tacha el texto si 
+    minicaja.addEventListener('click', function() {
+      nuevaTarea.classList.toggle('tachado');
+    }, false);
+  } paraTachar();
 
-/*function borrarTareas(){
-	var borrar = document.getElementsByClassName("laNuevaTarea")[0];
-	tarea.parentNode.removeChild(borrar);
-}*/
+  function borrarTareas(){
+    tarroBasura.addEventListener('click', function() {
+      laTarea = document.getElementsByClassName("laNuevaTarea")[0];
+      laTarea.parentNode.removeChild(laTarea); //No sirve porque borra todos los p definitivamente y no deja crear más
+    }, false);
+  }borrarTareas();
+}
