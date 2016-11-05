@@ -70,3 +70,10 @@ hr {
 .tachado{
 	text-decoration: line-through;
 }
+
+.icon-heart{
+	font-size: 30px;
+	color: grey;
+	position: absolute;
+	margin-left: 1%;
+}
